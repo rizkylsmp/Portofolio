@@ -21,6 +21,7 @@ const Music = () => {
     setAudioFiles(shuffledAudioFiles);
     const randomTrack = Math.floor(Math.random() * shuffledAudioFiles.length);
     setCurrentTrack(randomTrack);
+    // eslint-disable-next-line
   }, []);
 
   const handlePlayPause = () => {

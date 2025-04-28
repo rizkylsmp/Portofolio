@@ -52,7 +52,11 @@ const Profile = () => {
                 a Junior <b>Web & Game Developer</b>
               </div>
               <p className="text-justify group hover:p-5 p-0 relative transition-all duration-500">
-                Lulusan Politeknik Negeri Malang jurusan Teknologi Informasi dengan pengalaman mengembangkan beberapa proyek website dan game. Pekerja keras dan mampu bekerja dibawah tekanan serta memiliki rasa ingin tahu yang tinggi.
+                Lulusan D-III Teknologi Informasi di Politeknik Negeri Malang
+                dengan ketertarikan mengembangkan aplikasi berbasis website
+                serta berpengalaman sabagai IT support. Pekerja keras dan mampu
+                bekerja dibawah tekanan serta memiliki rasa ingin tahu yang
+                tinggi.
               </p>
             </div>
             <div className="flex flex-col gap-2">
@@ -73,7 +77,7 @@ const Profile = () => {
                   href="https://www.cake.me/rizkylsmp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-3 py-1 w-fit bg-color-1 dark:bg-color-5 rounded-xl border-color-2 border-[0.1px] shadow-[,_5px_5px_10px_rgba(0,_0,_0,_0.25)] transition-all  hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)]"
+                  className="flex items-center gap-2 px-3 py-1 w-fit bg-white dark:bg-color-5 rounded-xl border-color-2 border-[0.1px] shadow-[,_5px_5px_10px_rgba(0,_0,_0,_0.25)] hover:shadow-[-1px_-1px_3px_rgba(255,_255,_255,_255),_1px_1px_3px_rgba(0,_0,_0,_0),inset_-1px_-1px_3px_rgba(255,_255,_255,_0),inset_1px_1px_3px_rgba(0,_0,_0,_0)] before:ease relative h-12 overflow-hidden text-black dark:text-white transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-blue-300 dark:before:bg-white before:opacity-10 before:duration-500 hover:shadow-gray-300 dark:hover:shadow-white hover:before:-translate-x-40"
                 >
                   Resume
                   <FaExternalLinkAlt />

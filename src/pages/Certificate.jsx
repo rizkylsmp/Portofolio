@@ -1,4 +1,5 @@
 import React from "react";
+import SertifBNSP from "../assets/images/certificate/s_bnsp/certif_bnsp.jpg";
 import SertifACA from "../assets/images/certificate/s_alibaba/Sertifikat ACA.jpg";
 import SertifAlibaba from "../assets/images/certificate/s_alibaba/Sertifikat Alibaba.jpg";
 import SertifMSIB from "../assets/images/certificate/s_msib/Sertifikat MSIB 5_1.jpg";
@@ -19,11 +20,25 @@ import SertifCP6 from "../assets/images/certificate/s_codepolitan/Sertifikat Cod
 import SertifCP7 from "../assets/images/certificate/s_codepolitan/Sertifikat Codepolitan AJAX & Web API_1.jpg";
 import SertifCP8 from "../assets/images/certificate/s_codepolitan/Sertifikat Codepolitan Bootstrap_1.jpg";
 import SertifCP9 from "../assets/images/certificate/s_codepolitan/Sertifikat Codepolitan ReactJS.jpg";
+import SertifCP10 from "../assets/images/certificate/s_codepolitan/s-cp-tw.jpg";
 
 const Certificate = () => {
   const Certificate = [
-    { src: [SertifAlibaba, SertifACA], alt: "Sertifikat Alibaba Cloud" },
-    { src: [SertifMSIB, SertifMSIB2], alt: "Sertifikat MSIB 5" },
+    {
+      src: [SertifBNSP],
+      alt: "Sertifikat Kompetensi BNSP",
+      style: "md:h-64 lg:h-52 xl:h-80 h-full items-start",
+    },
+    {
+      src: [SertifAlibaba, SertifACA],
+      alt: "Sertifikat Alibaba Cloud",
+      style: "items-center",
+    },
+    {
+      src: [SertifMSIB, SertifMSIB2],
+      alt: "Sertifikat MSIB 5",
+      style: "items-center",
+    },
     {
       src: [
         SertifICEI1,
@@ -35,6 +50,7 @@ const Certificate = () => {
         SertifICEI7,
       ],
       alt: "Sertifikat ICEI",
+      style: "items-center",
     },
     {
       src: [
@@ -47,8 +63,10 @@ const Certificate = () => {
         SertifCP7,
         SertifCP8,
         SertifCP9,
+        SertifCP10,
       ],
       alt: "Sertifikat Codepolitan",
+      style: "items-center",
     },
   ];
   return (
@@ -56,7 +74,7 @@ const Certificate = () => {
       <div className="p-5 flex flex-col gap-10">
         <div
           data-aos="fade-up"
-          className="font-bold md:text-5xl text-4xl  text-center"
+          className="font-bold md:text-5xl text-4xl text-center"
         >
           CERTIFICATE
         </div>
@@ -66,9 +84,11 @@ const Certificate = () => {
               data-aos="zoom-out"
               className="p-2 overflow-hidden bg-white dark:bg-color-4 rounded"
             >
-              <div className="flex flex-shrink-0 overflow-x-auto gap-2 h-full items-center">
+              <div
+                className={`flex flex-shrink-0 overflow-auto gap-2 h-full  ${c.style}`}
+              >
                 {c.src.map((image) => (
-                  <img src={image} alt={c.alt} className="h-fit" />
+                  <img src={image} alt={c.alt} />
                 ))}
               </div>
             </div>

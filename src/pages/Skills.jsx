@@ -62,7 +62,7 @@ const Skills = () => {
     },
     {
       name: "Unity",
-      src: "https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png",
+      src: "https://cdn-icons-png.flaticon.com/512/5969/5969347.png",
       alt: "unity",
     },
   ];

@@ -28,13 +28,23 @@ const Experience = () => {
             PT RAINDO PUTRA LESTARI{" "}
             <img src={RPL_Icon} alt="RPL Icon" className="w-10 h-8" />
           </div>
-          <div className="text-lg">Juli 2024 - Sekarang</div>
-          <div className="text-justify">
-            Melakukan pengelolaan dan input data impor & ekspor ke sistem IT
-            Inventory yang dimana data tersebut akan dipantau oleh Bea Cukai.
-            Data yang diolah yaitu impor bahan baku, pemakaian bahan baku, hasil
-            produksi, ekspor barang jadi, barang sisa, waste, dll.
+          <div className="flex items-center gap-2">
+            <div className="text-xl font-semibold">Staff IT</div>
+            <div className="text-xl">||</div>
+            <div className="text-lg">Juli 2024 - Sekarang</div>
           </div>
+          <ul className="list-disc list-inside">
+            <li className="pl-6 -indent-6">
+              Mengelola dan memperbarui data laporan export & import barang ke
+              dalam sistem guna memastikan kelancaran keluar dan masuk barang
+              kedalam maupun luar negeri.
+            </li>
+            <li className="pl-6 -indent-6">
+              Memberikan dukungan teknis kepada pengguna terkait masalah
+              hardware, software, dan jaringan agar dapat meningkatkan
+              kelancaran pekerjaan.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
