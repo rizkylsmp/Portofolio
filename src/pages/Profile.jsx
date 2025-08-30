@@ -1,4 +1,4 @@
-import ProfilePict from "../assets/images/profile/Profile.JPG";
+import ProfilePict from "../assets/images/profile/Profile_2.JPG";
 import styles from "../assets/styles/bubble.module.css";
 import { IoIosMail } from "react-icons/io";
 import {
